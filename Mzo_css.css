@@ -1,0 +1,91 @@
+body{
+    background-color:rgb(10, 129, 113);
+    color: white;
+    font-family: sans-serif;
+     font-family:'Poppins', sans-serif; ;
+}
+
+nav{
+  display: inline-flex;
+   margin-left: 120px;
+   position: fixed;
+   border-bottom: solid 0.1px white;
+
+}
+
+.Logo_name {
+    float:left;
+    margin-top: 8px;
+}
+
+nav ul{
+  display: flex;
+  flex-direction:row;
+  list-style: none;
+  margin-left: 150px;
+  margin-top: 25px;
+ 
+}
+
+nav ul li a{
+    color: white;
+    font-size: 18px;
+    margin-right: 20px;
+  
+}
+
+
+nav ul li a:hover{
+     padding-left: 10px;
+     padding-right: 15px;
+     padding-top:5px;
+     padding-bottom: 5px;
+     background-color: rgb(4, 77, 80);
+     border-radius: 20px;
+     transition: background 0.2s;
+     border-style: solid;
+}
+
+.Home_section{
+   padding-top: 100px;
+   margin-top: 40px;
+   margin-left: 120px;
+   height: 25vh;  
+}
+
+.homebutton{
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top:9px;
+    padding-bottom: 9px;
+    border-radius: 20px;
+    background-color:rgb(7, 61, 63);
+    color: white;
+    border-color: white;
+    margin-right: 20px;
+}
+
+.homebuttons{
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top:9px;
+    padding-bottom: 9px;
+    border-radius: 20px;
+    color: white;
+    background-color:rgb(10, 129, 113);
+    border-color: white;
+    margin-right: 20px;
+}
+
+.homebuttons:hover{
+ 
+    background-color:rgb(7, 61, 63);
+}
+
+.Topic_h3{
+    font-weight: 500px;
+    font-family: 'Poppins', sans-serif;
+}
+.content_about{
+    font-family:'Poppins', sans-serif; ;
+}
