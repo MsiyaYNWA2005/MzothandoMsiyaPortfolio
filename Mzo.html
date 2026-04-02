@@ -4,6 +4,9 @@
     <head>
       <link rel="stylesheet" href="Mzo_css.css" />
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+       <link rel="icon" type="image/svg+xml" href="python_icon.svg">
     </head>
     <nav>
       <section class="Logo_name">
@@ -12,22 +15,25 @@
       <section class="nav_Links">
         <ul>
           <li>
-            <a class="Home_link">Home</a>
+            <button class="Home_link" onclick="HomePage()">Home</button>
           </li>
           <li>
-            <a class="hover_links">About</a>
+            <button class="hover_links" onclick="AboutPage()" >About</button>
           </li>
           <li>
-            <a class="hover_links">Education</a>
+            <button class="hover_links"  onclick="EducationPage()">Education</button>
           </li>
           <li>
-            <a class="hover_links">Projects</a>
+            <button class="hover_links">Projects</button>
           </li>
           <li>
-            <a class="hover_links">Contact</a>
+            <button class="hover_links" onclick="ContactPage()">Contact</button>
           </li>
           <li>
-            <a class="hover_links">Documents</a>
+            <button  class="hover_links"  onclick="SkillsPage()">Skills</button>
+          </li>
+          <li>
+            <button  class="hover_links" onclick="DocumnetsPage()">Documents</button>
           </li>
         </ul>
       </section>
@@ -52,7 +58,149 @@
       <button class="homebuttons">Get In Touch</button>
     </section>
     </section>
-   
+    <section id="education" class="education_section">
+      <section class="card_edu">
+      <button class="Year_button">Year 1</button>
+      <p class="p_modules">-Information Systems IA</p>
+      <p class="p_modules">-Information Systems IB</p>
+      <p class="p_modules" >-Mathematical Methods and Modelling I</p>
+      <p class="p_modules">-Scientific Computing I</p>
+      <p class="p_modules">-Mechanics I</p>
+      <p class="p_modules" >-Basic Computer Organisation I</p>
+      <p class="p_modules">-Discrete Computational Structures I</p>
+      <p class="p_modules">-Introduction to Data Structures and Algorithms I</p>
+      <p class="p_modules">-Introduction to Algorithms and Programming I</p>
+      <p class="p_modules">- Algebra I</p>
+      <p class="p_modules">- Calculus I</p> 
+      </section>
+      <section class="card_edu">
+      <button class="Year_button">Year 2</button>
+      <p class="p_modules">-Information Systems IIA</p>
+      <p class="p_modules">-Information Systems IIB</p>
+      <p class="p_modules">-Database Fundamentals II</p>
+      <p class="p_modules">-Mobile Computing II</p>
+      <p class="p_modules">-Computer Networks II</p>
+      <p class="p_modules">-Analysis of Algorithms II</p>
+      <p class="p_modules">-Multivariable Calculus</p>
+      <p class="p_modules">-Abstract Mathematics II</p>
+      <p class="p_modules">-Linear Algebra II</p>
+      <p class="p_modules">-Introduction to Mathematical Statistics II</p>
+      <p class="p_modules">-Basic Analysis II</p>
+      <p class="p_modules">-Advanced Analysis II</p>
+      </section>
+
+      <section class="card_edu">
+      <button class="Year_button">Year 3</button>
+      <button class="curr_year">Current Year</button>
+      <p class="p_modules">-Software Design III</p>
+      <p class="p_modules">-Operating Systems and System Programming III</p>
+      <p class="p_modules">-Management and Application of Information Systems</p>
+      <p class="p_modules">-Information Systems Development Project</p>
+      <p class="p_modules">-Formal Languages and Automata</p>
+      <p class="p_modules">-Advanced Analysis of Algorithms III</p>
+      </section>
+    </section>
+
+    <section id="about_me" class="About_section">
+      <section class="about_text">
+      <p>About Me</p>
+         <p>Final-year Computer Science and Information Systems student with a strong passion for
+        problem solving, systems analysis, and software development. Skilled in C++, Python, Java,
+        and C#, with experience in web technologies including HTML, CSS, and JavaScript. I have worked
+        with Firestore to develop data-driven applications and enjoy building efficient, user-focused
+        solutions. I am eager to apply my technical and analytical skills in a professional environment
+        and continue growing as a software developer.</p>
+      </section>
+      <section class="card_sections">
+        <section class="card_view">
+          <button class="open_to_about">OPEN TO</button>
+          <p>Software Developer(junior)</p>
+          <p>Systems Analyst</p>
+          <p>Business Analyst</p>
+          <p>Data and Problem Solving Roles</p>
+        </section>
+      </section>
+      </section>
+
+
+
+
+    <section id="contact" class="contact_section">   <!-- ← now outside About -->
+      <button class="name_contact">Mzothando Msiya</button>
+      <p class="contact_intro">
+      I am actively looking for opportunities as a <strong>Junior Software Developer</strong>, 
+      <strong>Systems Analyst</strong>, <strong>Business Analyst</strong>, or in 
+      <strong>Data and Problem Solving</strong> roles. If you have an opportunity that aligns 
+      with my skills and passion, I would love to hear from you feel free to reach out 
+      through any of the channels below.
+      </p>
+      <section class="socials">
+        <button class="contact_buttons"   onclick="GoToGitHub()">
+          <i class="fab fa-github"></i>
+          @MsiyaYNWA2005
+        </button>
+
+        <button  class="contact_buttons" onclick="GoToEmail()">
+          <i  class="fas fa-envelope"></i>sinothandomsiya212@gmail
+        </button>
+
+        <button class="contact_buttons"  onclick="">
+          <i class="fas fa-phone"></i><span>0790971467</span>
+        </button>
+
+        <button  class="contact_buttons"  onclick="GoToLinkend()">
+          <i class="fab fa-linkedin"></i><span>Mzothando</span>
+        </button>
+
+      </section>
+    </section>
+
+
+    <section  id="skills_section"   class="skills_section">
+    <h2 class="skill_topic">Programming Languages</h2>
+    <section class="Langauges">
+      <button class="skills_button"><img  class="images_icons"  src="python_logo_icon.webp" alt="Python Icon" width="30">  Python</button>
+      <button class="skills_button"><img  class="images_icons"  src="java_icon.webp" alt="Java Icon" width="30">  Java</button>
+      <button class="skills_button"><img  class="images_icons"  src="c++_icon.png" alt="C++ Icon" width="30">  C++</button>
+      <button class="skills_button"><img  class="images_icons"  src="Logo_C_sharp.svg.png" alt="C# Icon" width="30">  C#</button>
+    </section>
+    <h2 class="skill_topic">Web Development </h2>
+    <section class="Web_dev">
+      <button class="skills_button"><img  class="images_icons"  src="new_html_logo.png" alt="HTML Icon" width="60">  HTML</button>
+      <button class="skills_button"><img  class="images_icons"  src="css_logo.png" alt="CSS Icon" width="30">  CSS</button>
+      <button class="skills_button"><img  class="images_icons"  src="javascript_logo.png" alt="JS Icon" width="90">  JavaScript</button>
+    </section>
+    <h2 class="skill_topic">Frameworks</h2>
+    <section class="Frameworks">
+      <button class="skills_button"><img  class="images_icons"  src="expres_1.png" alt="HTML Icon" width="70"> Express.js</button>
+    </section>
+
+    <h2 class="skill_topic">Database</h2>
+    <section class="Database">
+      <button class="skills_button"><img  class="images_icons"  src="mysql_logo.webp" alt="Mysql Icon" width="60">  Mysql</button>
+      <button class="skills_button"><img  class="images_icons"  src="firebase_logo.png" alt="Firestore Icon" width="70"> Firestore</button>
+    </section>
+    </section>
+    
+    <section id="Documents" class="Documets">
+      <section class="documnets_lower_section">
+           <img  class="documet_icon"   src="document_icon_white.svg" width="70">
+           <section class="flex_document_sections">
+             <section>
+           <p class="document_cv">Curriculum Vitae</p>
+           <h2>Sinothando Msiya - CV </h2>
+           <p class="pdf_updated">PDF · Updated 2025</p>
+           </section>
+           <section class="view_cv_section">
+            <a class="view_cv"   href="MzoCV.pdf" target="_blank">view</a>
+           </section>
+           </section>
+          
+      </section>
+    </section>
+
+
     <script src="Mzo_js.js"></script>
+    <script src="Mzo_js_handleFiles.js"></script>
   </body>
 </html>
