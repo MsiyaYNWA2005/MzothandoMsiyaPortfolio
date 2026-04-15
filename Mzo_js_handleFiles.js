@@ -5,7 +5,7 @@ window.onload=function(){
     document.getElementById("contact").style.display="none";
     document.getElementById("skills_section").style.display="none";
     document.getElementById("Documents").style.display="none";
-    document.getElementById("").style.display="none";
+    document.getElementById("Projects").style.display="none";
 }
 
 function HomePage(){
@@ -15,7 +15,7 @@ function HomePage(){
     document.getElementById("contact").style.display="none";
     document.getElementById("skills_section").style.display="none";
     document.getElementById("Documents").style.display="none";
-    document.getElementById("").style.display="none";
+    document.getElementById("Projects").style.display="none";
 }
 
 function EducationPage(){
@@ -25,7 +25,7 @@ function EducationPage(){
     document.getElementById("contact").style.display="none";
     document.getElementById("skills_section").style.display="none";
     document.getElementById("Documents").style.display="none";
-    document.getElementById("").style.display="none";
+    document.getElementById("Projects").style.display="none";
 }
 
 function AboutPage(){  
@@ -35,7 +35,7 @@ function AboutPage(){
     document.getElementById("contact").style.display="none";
     document.getElementById("skills_section").style.display="none";
     document.getElementById("Documents").style.display="none";
-    document.getElementById("").style.display="none";
+    document.getElementById("Projects").style.display="none";
 }
 
 function ContactPage(){
@@ -45,7 +45,7 @@ function ContactPage(){
     document.getElementById("contact").style.display="block";
     document.getElementById("skills_section").style.display="none";
     document.getElementById("Documents").style.display="none";
-    document.getElementById("").style.display="none";
+    document.getElementById("Projects").style.display="none";
 }
 
 function SkillsPage(){
@@ -68,6 +68,17 @@ function DocumnetsPage(){
     document.getElementById("").style.display="none";
 }
 
+function ProjectsPage(){
+    document.getElementById("Home_section").style.display="none";
+    document.getElementById("education").style.display="none";
+    document.getElementById("about_me").style.display="none";
+    document.getElementById("contact").style.display="none";
+    document.getElementById("skills_section").style.display="none";
+    document.getElementById("Documents").style.display="none";
+    document.getElementById("Projects").style.display="block";
+   
+}
+
 function GoToGitHub(){
     const link = document.createElement("a");
     link.href="https://github.com/MsiyaYNWA2005";
@@ -88,3 +99,39 @@ function GoToLinkend(){
     link.target="_blank";
     link.click();
 }
+function GoToTrackRankProject(){
+    const link = document.createElement("a");
+    link.href="https://github.com/MsiyaYNWA2005/TrackApp.git";
+    link.target="_blank";
+    link.click();
+}
+
+function GoToSchoolarSync(){
+    const link = document.createElement("a");
+    link.href="https://github.com/mahlatseclayton/ScholarSync.git";
+    link.target="_blank";
+    link.click();
+}
+
+function GoToChatOnVibes(){
+    const link = document.createElement("a");
+    link.href="https://github.com/mahlatseclayton/WOOFERS.git";
+    link.target="_blank";
+    link.click();
+}
+
+
+function GoToClydesdaleCertificates(){
+    const link = document.createElement("a");
+    link.href="https://github.com/MsiyaYNWA2005/CLYDESDALE.git";
+    link.target="_blank";
+    link.click();
+}
+
+function GoToWCCProject(){
+    const link = document.createElement("a");
+    link.href="https://github.com/MsiyaYNWA2005/INFOWCCO_PROJECT.git";
+    link.target="_blank";
+    link.click();
+}
+
