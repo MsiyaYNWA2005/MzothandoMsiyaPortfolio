@@ -139,6 +139,7 @@ nav ul li button:hover {
     cursor: pointer;
     transition: all 0.22s ease;
     box-shadow: 0 4px 18px rgba(91, 33, 232, 0.35);
+    margin-top: 20px;
 }
 
 .homebuttons:hover {
@@ -546,6 +547,7 @@ nav ul li button:hover {
     background: var(--bg-card);
     backdrop-filter: blur(8px);
     transition: border-color 0.28s, box-shadow 0.28s, transform 0.28s;
+    align-items: flex-start;  
 }
 
 .Projects_card:hover {
@@ -594,18 +596,23 @@ nav ul li button:hover {
 .Project_Git {
     margin-top: 20px;
     border-radius: 10px;
-    display: inline-flex;
+    display: flex;             
+    flex-direction: column;  
     align-items: center;
     gap: 8px;
     border: 1px solid var(--border);
     font-family: 'Poppins', sans-serif;
     background-color: var(--accent-soft);
     color: var(--text-primary);
-    padding: 5px 3px;
+    padding-left: 10px;
     font-size: 13px;
     cursor: pointer;
     text-decoration: none;
     transition: all 0.22s ease;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .Project_Git:hover {
@@ -617,7 +624,7 @@ nav ul li button:hover {
 }
 
 .image_Git {
-    width: 8%;
+    width: 4%;
 }
 
 ::-webkit-scrollbar {
